@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: game-2048
+    runtime: static
+    buildCommand: npm install && npm test && npm run build
+    staticPublishPath: dist
